@@ -52,7 +52,7 @@ Older transformers versions will fail with "No module named 'transformers.models
 
 ## Features
 
-### 🎯 **Core Capabilities**
+### **Core Capabilities**
 - **Multimodal Understanding**: Combines text generation with visual understanding
 - **Dense Segmentation**: Pixel-perfect object segmentation masks
 - **Video Processing**: Temporal understanding across video sequences
@@ -60,7 +60,7 @@ Older transformers versions will fail with "No module named 'transformers.models
 - **Integrated Mask Conversion**: Built-in conversion to ComfyUI mask and image formats
 - **Cancellable, Real-time Downloads**: Large model downloads show progress and respect ComfyUI's cancel button
 
-### 🚀 **Supported Models**
+### **Supported Models**
 - `ByteDance/Sa2VA-Qwen3-VL-4B` (recommended - 4B parameters)
 - `ByteDance/Sa2VA-Qwen2_5-VL-7B` (7B parameters)
 - `ByteDance/Sa2VA-InternVL3-8B` (8B parameters)
