@@ -6,10 +6,10 @@ This script handles the installation and setup of ComfyUI-Sa2VA,
 including dependency management and compatibility checks.
 """
 
-import sys
-import subprocess
 import importlib
 import os
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -194,7 +194,7 @@ def setup_comfyui_integration():
     # Check if we're in the right directory structure
     current_dir = Path.cwd()
 
-    if current_dir.name != "ComfyUI-Sa2VA":
+    if current_dir.name.lower() != "comfyui-sa2va":
         print("⚠️  Not in ComfyUI-Sa2VA directory")
         print(f"   Current directory: {current_dir}")
         return False

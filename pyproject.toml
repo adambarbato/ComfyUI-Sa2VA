@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-sa2va"
 description = "ComfyUI nodes for Sa2VA (Segment Anything 2 Video Assistant) - Advanced multimodal image and video understanding with segmentation."
-version = "0.0.1"
+version = "0.0.2"
 license = {file = "LICENSE"}
 dependencies = ["torch", "transformers>=4.57.0", "accelerate", "pillow", "numpy", "huggingface_hub", "qwen_vl_utils"]
 
