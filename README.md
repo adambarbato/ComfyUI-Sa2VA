@@ -11,13 +11,13 @@ Sa2VA is a state-of-the-art multimodal large language model (MLLM) that combines
 This Sa2VA node can be thought of as a more advanced version of [neverbiasu's ComfyUI-SAM2 node](https://github.com/neverbiasu/ComfyUI-SAM2) that allows for segmentation of objects in an image using natural langauge. Unlike that node which is based on [Grounded SAM/Grounding DINO](https://github.com/IDEA-Research/Grounded-SAM-2), Sa2VA uses a full VLLM trained to output SAM2 segmentation masks, which means it can handle significantly longer and more descriptive text. This allows Sa2VA to be better for uses cases where simple phrases like "woman on right" isn't sufficient to completely disambiguate between objects.
 
 It outperforms Grounding DINO on short prompts:
-
+![](https://raw.githubusercontent.com/adambarbato/ComfyUI-Sa2VA/refs/heads/main/docs/sa2va-grounding-dino.jpg)
 
 And can follow longer instructions quite well, such as describing a character in general, rather than their position or traits in the image itself. This lends itself well to auto-generated or agentic segmentation prompts:
-
+![](https://raw.githubusercontent.com/adambarbato/ComfyUI-Sa2VA/refs/heads/main/docs/long-prompt.jpg)
 
 It can also segment more than one mask at a time, but the prompt needs to be precise:
-
+![](https://raw.githubusercontent.com/adambarbato/ComfyUI-Sa2VA/refs/heads/main/docs/multi-mask.jpg)
 
 ## Installation
 
